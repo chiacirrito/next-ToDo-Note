@@ -1,0 +1,23 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 50px;
+  .List {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  h2 {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}

@@ -1,0 +1,25 @@
+.Add {
+  padding: 50px;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+
+    input {
+      width: 100%;
+    }
+
+    .text {
+      height: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Add {
+    width: 40%;
+    padding: 60px;
+    border-right: 1px solid gray;
+  }
+}

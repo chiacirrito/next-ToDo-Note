@@ -1,0 +1,16 @@
+.Navbar {
+  padding: 10px;
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: 12pt;
+      list-style-type: none;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 20px 50px;
+
+  h2 {
+    letter-spacing: 1px;
+  }
+
+  .title {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  input {
+    width: 100%;
+    padding: 3px 2px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .Content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    input {
+      width: 60%;
+    }
+  }
+}

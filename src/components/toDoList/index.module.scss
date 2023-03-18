@@ -1,0 +1,13 @@
+.List {
+  h2 {
+    padding: 8px 0;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .List {
+    padding: 40px 0;
+    width: 70%;
+  }
+}
